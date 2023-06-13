@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T10:20:29.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="qkdXlivVAxbolb2ydmAD" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T10:21:44.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="ogBIoC2ZfKN0TdCYJJBw" version="21.3.8" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
     <mxGraphModel dx="2579" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
       <root>
@@ -55,6 +55,9 @@
             <mxPoint x="-730" y="-150" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cIOsUQTodziZoNkcTuei-18" value="控制反转，注册服务代替创建服务对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="-330" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
