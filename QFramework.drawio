@@ -1,19 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T10:07:15.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="rs9UImjuQGntio8lhMtC" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T10:19:16.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="CWFG8hldjVeKqE6cbPzf" version="21.3.8" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
-    <mxGraphModel dx="1779" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2349" dy="1505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cIOsUQTodziZoNkcTuei-1" value="«interface»&lt;br&gt;&lt;b&gt;IArchitecture&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="-440" width="210" height="60" as="geometry" />
+          <mxGeometry x="-870" y="-590" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cIOsUQTodziZoNkcTuei-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="cIOsUQTodziZoNkcTuei-2" target="cIOsUQTodziZoNkcTuei-1">
+        <mxCell id="cIOsUQTodziZoNkcTuei-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;endArrow=blockThin;endFill=0;" edge="1" parent="1" source="cIOsUQTodziZoNkcTuei-2" target="cIOsUQTodziZoNkcTuei-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-240" y="-340" as="targetPoint" />
+            <mxPoint x="-770" y="-360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cIOsUQTodziZoNkcTuei-2" value="Architecture&amp;lt;T&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="-310" width="190" height="50" as="geometry" />
+          <mxGeometry x="-860" y="-280" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cIOsUQTodziZoNkcTuei-7" value="«interface»&lt;br&gt;&lt;b&gt;ISystem&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-480" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cIOsUQTodziZoNkcTuei-8" value="«interface»&lt;br&gt;&lt;b&gt;IModel&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-410" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cIOsUQTodziZoNkcTuei-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cIOsUQTodziZoNkcTuei-8" target="cIOsUQTodziZoNkcTuei-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIOsUQTodziZoNkcTuei-11" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="cIOsUQTodziZoNkcTuei-2" target="cIOsUQTodziZoNkcTuei-7">
+          <mxGeometry x="-0.8769" y="20" relative="1" as="geometry">
+            <mxPoint x="-580" y="-420" as="sourcePoint" />
+            <mxPoint x="-420" y="-420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-560" y="-267" />
+              <mxPoint x="-560" y="-450" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cIOsUQTodziZoNkcTuei-12" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="cIOsUQTodziZoNkcTuei-2" target="cIOsUQTodziZoNkcTuei-8">
+          <mxGeometry x="-0.8769" y="20" relative="1" as="geometry">
+            <mxPoint x="-650" y="-420" as="sourcePoint" />
+            <mxPoint x="-375" y="-470" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-500" y="-242" />
+              <mxPoint x="-500" y="-385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cIOsUQTodziZoNkcTuei-13" value="IOCContainer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="-280" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
