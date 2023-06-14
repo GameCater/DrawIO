@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T07:09:36.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="9hXU7U4kkvctlzkXX_ml" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T07:18:57.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="hEaEGHP8EDIVUNGbo_LT" version="21.3.8" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
-    <mxGraphModel dx="3149" dy="2263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
+    <mxGraphModel dx="3222" dy="2536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,7 +360,25 @@
           <mxGeometry x="-1345" y="880" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-95" value="运行时扩展接口，扩展方法的执行优先级最低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1650" y="730" width="160" height="30" as="geometry" />
+          <mxGeometry x="-1550" y="730" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-96" value="CustomUnRegister" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="652" width="200" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-97" value="- mOnUnRegister: Action" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fSNr2YxQXtXftvXYu1Ss-96">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-98" value="+ UnRegister: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fSNr2YxQXtXftvXYu1Ss-96">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-100" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-96" target="fSNr2YxQXtXftvXYu1Ss-90">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1080" y="700" as="sourcePoint" />
+            <mxPoint x="-920" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-101" value="自定义可注销的类，支持注册注销前其他操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="620" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
