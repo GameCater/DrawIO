@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T06:36:05.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="Ynw_gNv5B01tngFipmQW" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T06:50:06.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="uI1zeoukaexFqfwmnID6" version="21.3.8" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
-    <mxGraphModel dx="3707" dy="2647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
+    <mxGraphModel dx="3322" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,7 +239,7 @@
           <mxGeometry x="-610" y="-990" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;ICanSetArchitecture&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetArchitecture(IArchitecture architecture): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="-990" width="290" height="70" as="geometry" />
+          <mxGeometry x="-10" y="-970" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-62" value="«interface»&lt;br&gt;&lt;b&gt;ICanGetModel&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-740" y="-820" width="175" height="50" as="geometry" />
@@ -268,8 +268,65 @@
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-70" value="为 ICanGetSystem 定义的 GetSystem 扩展方法，该方本质为 IArchitecture 的同名方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1045" y="-960" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fSNr2YxQXtXftvXYu1Ss-71" value="ICanGetModel 与 ICanGetSystem 同理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1015" y="-750" width="180" height="30" as="geometry" />
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-71" value="其他继承 IBelongToArchiture 接口的接口同理，都是通过声明静态扩展类，定义扩展方法来扩展接口自身的功能，而这功能是 IArchitecture 接口提供的，相当于把 IArchitecture 胖接口的功能细分" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1175" y="-780" width="415" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-72" value="«interface»&lt;br&gt;&lt;b&gt;ICanGetUtility&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-597.5" y="-740" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-73" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-72" target="fSNr2YxQXtXftvXYu1Ss-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-392" y="-810" as="sourcePoint" />
+            <mxPoint x="-472" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-74" value="«interface»&lt;br&gt;&lt;b&gt;ICanRegisterEvent&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="-1080" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-75" value="«interface»&lt;br&gt;&lt;b&gt;ICanSendCommand&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-1170" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-76" value="«interface»&lt;br&gt;&lt;b&gt;ICanSendEvent&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-1170" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-77" value="«interface»&lt;br&gt;&lt;b&gt;ICanSendQuery&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="-1090" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-78" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-74" target="fSNr2YxQXtXftvXYu1Ss-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-620" y="-810" as="sourcePoint" />
+            <mxPoint x="-531" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-79" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-75" target="fSNr2YxQXtXftvXYu1Ss-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-757" y="-1020" as="sourcePoint" />
+            <mxPoint x="-600" y="-974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-80" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-76" target="fSNr2YxQXtXftvXYu1Ss-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-624" y="-1110" as="sourcePoint" />
+            <mxPoint x="-526" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-81" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-77" target="fSNr2YxQXtXftvXYu1Ss-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-424" y="-1110" as="sourcePoint" />
+            <mxPoint x="-484" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-82" value="IUnRegister RegisterEvent&amp;lt;T&amp;gt;(Action&amp;lt;T&amp;gt; onEvent);&lt;br&gt;void UnRegisterEvent&amp;lt;T&amp;gt;(Action&amp;lt;T&amp;gt; onEvent);" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1065" y="-1130" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-83" value="void SendEvent&amp;lt;T&amp;gt;() where T : new();&lt;br&gt;void SendEvent&amp;lt;T&amp;gt;(T e);" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-502.5" y="-1220" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-84" value="void SendCommand&amp;lt;T&amp;gt;(T command) where T : ICommand;&lt;br&gt;TResult SendCommand&amp;lt;TResult&amp;gt;(ICommand&amp;lt;TResult&amp;gt; command);" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-1220" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-85" value="TResult SendQuery&amp;lt;TResult&amp;gt;(IQuery&amp;lt;TResult&amp;gt; query);" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="-1130" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
