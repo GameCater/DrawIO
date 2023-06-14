@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T07:26:51.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="kx6QiK7d-GFZ7yjjrcv1" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T10:05:45.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="R2WNzmJBWgTdqeRsDVEr" version="21.3.8" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
-    <mxGraphModel dx="2979" dy="2396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
+    <mxGraphModel dx="3236" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -236,134 +236,134 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;IBelongToArchitecture&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetArchitecture(): IArchitecture&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="-990" width="200" height="70" as="geometry" />
+          <mxGeometry x="-610" y="-1120" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;ICanSetArchitecture&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetArchitecture(IArchitecture architecture): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-1000" width="290" height="70" as="geometry" />
+          <mxGeometry x="260" y="-1130" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-62" value="«interface»&lt;br&gt;&lt;b&gt;ICanGetModel&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="-820" width="175" height="50" as="geometry" />
+          <mxGeometry x="-740" y="-950" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-63" value="«interface»&lt;br&gt;&lt;b&gt;ICanGetSystem&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="-820" width="175" height="50" as="geometry" />
+          <mxGeometry x="-470" y="-950" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-64" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-62" target="fSNr2YxQXtXftvXYu1Ss-60">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-520" y="-840" as="sourcePoint" />
-            <mxPoint x="-360" y="-840" as="targetPoint" />
+            <mxPoint x="-520" y="-970" as="sourcePoint" />
+            <mxPoint x="-360" y="-970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-65" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-63" target="fSNr2YxQXtXftvXYu1Ss-60">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-620" y="-810" as="sourcePoint" />
-            <mxPoint x="-531" y="-910" as="targetPoint" />
+            <mxPoint x="-620" y="-940" as="sourcePoint" />
+            <mxPoint x="-531" y="-1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-66" value="static CanGetSystemExtension" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1240" y="-862" width="310" height="52" as="geometry" />
+          <mxGeometry x="-1240" y="-992" width="310" height="52" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-67" value="+ static T GetSystem&amp;lt;T&amp;gt;(this ICanGetSystem)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fSNr2YxQXtXftvXYu1Ss-66">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-70" value="为 ICanGetSystem 定义的 GetSystem 扩展方法，该方本质为 IArchitecture 的同名方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="-902" width="240" height="30" as="geometry" />
+          <mxGeometry x="-1210" y="-1032" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-71" value="其他继承 IBelongToArchiture 接口的接口同理，都是通过声明静态扩展类，定义扩展方法来扩展接口自身的功能，而这功能是 IArchitecture 接口提供的，相当于把 IArchitecture 胖接口的功能细分" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1175" y="-780" width="415" height="90" as="geometry" />
+          <mxGeometry x="-1175" y="-910" width="415" height="90" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-72" value="«interface»&lt;br&gt;&lt;b&gt;ICanGetUtility&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-597.5" y="-740" width="175" height="50" as="geometry" />
+          <mxGeometry x="-597.5" y="-870" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-73" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-72" target="fSNr2YxQXtXftvXYu1Ss-60">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-392" y="-810" as="sourcePoint" />
-            <mxPoint x="-472" y="-910" as="targetPoint" />
+            <mxPoint x="-392" y="-940" as="sourcePoint" />
+            <mxPoint x="-472" y="-1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-74" value="«interface»&lt;br&gt;&lt;b&gt;ICanRegisterEvent&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-1080" width="175" height="50" as="geometry" />
+          <mxGeometry x="-940" y="-1210" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-75" value="«interface»&lt;br&gt;&lt;b&gt;ICanSendCommand&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="-1170" width="175" height="50" as="geometry" />
+          <mxGeometry x="-740" y="-1300" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-76" value="«interface»&lt;br&gt;&lt;b&gt;ICanSendEvent&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="-1170" width="175" height="50" as="geometry" />
+          <mxGeometry x="-510" y="-1300" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-77" value="«interface»&lt;br&gt;&lt;b&gt;ICanSendQuery&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-305" y="-1090" width="175" height="50" as="geometry" />
+          <mxGeometry x="-305" y="-1220" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-78" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-74" target="fSNr2YxQXtXftvXYu1Ss-60">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-620" y="-810" as="sourcePoint" />
-            <mxPoint x="-531" y="-910" as="targetPoint" />
+            <mxPoint x="-620" y="-940" as="sourcePoint" />
+            <mxPoint x="-531" y="-1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-79" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-75" target="fSNr2YxQXtXftvXYu1Ss-60">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-757" y="-1020" as="sourcePoint" />
-            <mxPoint x="-600" y="-974" as="targetPoint" />
+            <mxPoint x="-757" y="-1150" as="sourcePoint" />
+            <mxPoint x="-600" y="-1104" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-80" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-76" target="fSNr2YxQXtXftvXYu1Ss-60">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-624" y="-1110" as="sourcePoint" />
-            <mxPoint x="-526" y="-980" as="targetPoint" />
+            <mxPoint x="-624" y="-1240" as="sourcePoint" />
+            <mxPoint x="-526" y="-1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-81" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-77" target="fSNr2YxQXtXftvXYu1Ss-60">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-424" y="-1110" as="sourcePoint" />
-            <mxPoint x="-484" y="-980" as="targetPoint" />
+            <mxPoint x="-424" y="-1240" as="sourcePoint" />
+            <mxPoint x="-484" y="-1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-82" value="IUnRegister RegisterEvent&amp;lt;T&amp;gt;(Action&amp;lt;T&amp;gt; onEvent);&lt;br&gt;void UnRegisterEvent&amp;lt;T&amp;gt;(Action&amp;lt;T&amp;gt; onEvent);" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1065" y="-1130" width="300" height="50" as="geometry" />
+          <mxGeometry x="-1065" y="-1260" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-83" value="void SendEvent&amp;lt;T&amp;gt;() where T : new();&lt;br&gt;void SendEvent&amp;lt;T&amp;gt;(T e);" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-502.5" y="-1220" width="240" height="40" as="geometry" />
+          <mxGeometry x="-502.5" y="-1350" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-84" value="void SendCommand&amp;lt;T&amp;gt;(T command) where T : ICommand;&lt;br&gt;TResult SendCommand&amp;lt;TResult&amp;gt;(ICommand&amp;lt;TResult&amp;gt; command);" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-910" y="-1220" width="380" height="50" as="geometry" />
+          <mxGeometry x="-910" y="-1350" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-85" value="TResult SendQuery&amp;lt;TResult&amp;gt;(IQuery&amp;lt;TResult&amp;gt; query);" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-305" y="-1130" width="330" height="30" as="geometry" />
+          <mxGeometry x="-305" y="-1260" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-86" value="T GetSystem&amp;lt;T&amp;gt;() where T : class, ISystem;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="-858" width="270" height="40" as="geometry" />
+          <mxGeometry x="-370" y="-988" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-87" value="T GetModel&amp;lt;T&amp;gt;() where T : class, IModel;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="-850" width="250" height="40" as="geometry" />
+          <mxGeometry x="-850" y="-980" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-88" value="T GetUtility&amp;lt;T&amp;gt;() where T : class, IUtility;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="-680" width="250" height="40" as="geometry" />
+          <mxGeometry x="-620" y="-810" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-89" value="TypeEventSystem" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1370" y="530" width="190" height="56" as="geometry" />
+          <mxGeometry x="-2080" y="560" width="190" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-90" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;IUnRegister&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UnRegister(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-1345" y="630" width="190" height="70" as="geometry" />
+          <mxGeometry x="-1860" y="810" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-91" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;IUnRegisterList&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UnregisterList&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-1345" y="800" width="190" height="70" as="geometry" />
+          <mxGeometry x="-1860" y="980" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-92" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-91" target="fSNr2YxQXtXftvXYu1Ss-90">
           <mxGeometry x="-0.8" y="-20" relative="1" as="geometry">
-            <mxPoint x="-1170" y="760" as="sourcePoint" />
-            <mxPoint x="-1010" y="760" as="targetPoint" />
+            <mxPoint x="-1685" y="940" as="sourcePoint" />
+            <mxPoint x="-1525" y="940" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-93" value="void AddToUnregisterList(IUnRegisterList unRegisterList)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1340" y="590" width="310" height="40" as="geometry" />
+          <mxGeometry x="-1855" y="770" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-94" value="void UnRegisterAll()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1345" y="880" width="110" height="40" as="geometry" />
+          <mxGeometry x="-1860" y="1060" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-95" value="运行时扩展接口，扩展方法的执行优先级最低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1550" y="730" width="160" height="30" as="geometry" />
+          <mxGeometry x="-2065" y="910" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-96" value="CustomUnRegister" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="652" width="200" height="78" as="geometry" />
+          <mxGeometry x="-1555" y="832" width="200" height="78" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-97" value="- mOnUnRegister: Action" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fSNr2YxQXtXftvXYu1Ss-96">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -373,15 +373,15 @@
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-100" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-96" target="fSNr2YxQXtXftvXYu1Ss-90">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1080" y="700" as="sourcePoint" />
-            <mxPoint x="-920" y="700" as="targetPoint" />
+            <mxPoint x="-1595" y="880" as="sourcePoint" />
+            <mxPoint x="-1435" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-101" value="自定义可注销的类，支持注册注销前其他操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="620" width="135" height="30" as="geometry" />
+          <mxGeometry x="-1455" y="800" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-103" value="UnRegisterOnDestroyTrigger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="860" width="300" height="138" as="geometry" />
+          <mxGeometry x="-1595" y="1040" width="300" height="138" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-104" value="+ mUnRegisters: HashSet&amp;lt;IUnRegister&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fSNr2YxQXtXftvXYu1Ss-103">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
@@ -400,20 +400,35 @@
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-107" value="HashSet" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-103" target="fSNr2YxQXtXftvXYu1Ss-90">
           <mxGeometry x="-1" y="-14" relative="1" as="geometry">
-            <mxPoint x="-1040" y="830" as="sourcePoint" />
-            <mxPoint x="-880" y="830" as="targetPoint" />
+            <mxPoint x="-1555" y="1010" as="sourcePoint" />
+            <mxPoint x="-1395" y="1010" as="targetPoint" />
             <mxPoint x="1" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-108" value="MonoBehaviour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="877" width="140" height="52" as="geometry" />
+          <mxGeometry x="-1225" y="1083" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="fSNr2YxQXtXftvXYu1Ss-112" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="fSNr2YxQXtXftvXYu1Ss-103" target="fSNr2YxQXtXftvXYu1Ss-108">
           <mxGeometry y="13" width="160" relative="1" as="geometry">
-            <mxPoint x="-780" y="990" as="sourcePoint" />
-            <mxPoint x="-620" y="990" as="targetPoint" />
+            <mxPoint x="-1295" y="1170" as="sourcePoint" />
+            <mxPoint x="-1135" y="1170" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-115" value="GameObject销毁时自动触发各 UnRegister 的 UnRegister 方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="1000" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-116" value="IUnRegister UnRegisterWhenGameObjectDestroyed(this IUnRegister unRegister, GameObject gameObject)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1855" y="650" width="632.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-117" value="IUnRegister UnRegisterWhenGameObjectDestroyed&amp;lt;T&amp;gt;(this IUnRegister self, T component)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1855" y="710" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-118" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-1245.5" y="650" width="23" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fSNr2YxQXtXftvXYu1Ss-119" value="向 GameObject 注册 UnRegister 自身" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="675" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
