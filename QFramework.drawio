@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T09:28:08.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="uVQgGAtAfwTSmlhwGtVw" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T10:41:11.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="hX9bavnBrtMsPg7WY0ny" version="21.4.0" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
     <mxGraphModel dx="5621" dy="2422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
       <root>
@@ -746,7 +746,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ldc7HIKXu7ln34JxATp--8" value="«interface»&lt;br&gt;&lt;b&gt;IArchitecture&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-3570" y="2930" width="110" height="50" as="geometry" />
+          <mxGeometry x="-3510" y="2930" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ldc7HIKXu7ln34JxATp--9" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="Ldc7HIKXu7ln34JxATp--5" target="Ldc7HIKXu7ln34JxATp--8">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -759,6 +759,62 @@
             <mxPoint x="-3640" y="2840" as="sourcePoint" />
             <mxPoint x="-3480" y="2840" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldc7HIKXu7ln34JxATp--18" target="Ldc7HIKXu7ln34JxATp--19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3800" y="3530" as="sourcePoint" />
+            <mxPoint x="-3690" y="3530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldc7HIKXu7ln34JxATp--19" target="Ldc7HIKXu7ln34JxATp--16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3590" y="3530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldc7HIKXu7ln34JxATp--16" target="Ldc7HIKXu7ln34JxATp--21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3390" y="3330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--23" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ldc7HIKXu7ln34JxATp--22">
+          <mxGeometry x="-0.3806" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldc7HIKXu7ln34JxATp--16" target="Ldc7HIKXu7ln34JxATp--27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3220" y="3700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-3390" y="3700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--26" value="初始化过了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ldc7HIKXu7ln34JxATp--25">
+          <mxGeometry x="-0.3857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--16" value="持有容器的architecture有没有初始化" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3460" y="3470" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--18" value="外部获取model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3920" y="3500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--19" value="从IOC容器中拿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3700" y="3500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--21" value="初始化 architecture" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3220" y="3300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldc7HIKXu7ln34JxATp--27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3020" y="3700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldc7HIKXu7ln34JxATp--27" value="拿 Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3220" y="3670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
