@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T02:32:59.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="28AH9vEH2GaehKoFcc5Y" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T02:34:49.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="Z2PUPP2o_GiMPGteLYy8" version="21.4.0" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
     <mxGraphModel dx="6821" dy="2456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
       <root>
@@ -687,6 +687,11 @@
             <mxPoint x="-4020" y="1900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1qI-dbQGxvWpQJNBaXY6-41" value="向底层发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xIr4LslpvPdGtchMT90U-14">
+          <mxGeometry x="-0.4459" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xIr4LslpvPdGtchMT90U-16" value="Model" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-3770" y="2380" width="80" height="80" as="geometry" />
         </mxCell>
@@ -694,6 +699,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-3460" y="2130" as="sourcePoint" />
             <mxPoint x="-3410" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qI-dbQGxvWpQJNBaXY6-43" value="向底层发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xIr4LslpvPdGtchMT90U-17">
+          <mxGeometry x="-0.4357" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-37" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xIr4LslpvPdGtchMT90U-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xIr4LslpvPdGtchMT90U-13" target="xIr4LslpvPdGtchMT90U-16" edge="1">
