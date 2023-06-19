@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T03:06:50.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="92498tGnfmVSLrLdWHlP" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T03:27:26.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="LYPplNPTit_WN5lw6VB6" version="21.5.0" type="github">
   <diagram name="第 1 页" id="K_PBwv0A-eRRwEIqiVZz">
     <mxGraphModel dx="7505" dy="2536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFEF2" math="0" shadow="0">
       <root>
@@ -1143,7 +1143,7 @@
           <mxGeometry x="-5.125508506616256" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BbtjJlDjUvlxNIoR1eX1-50" value="xxxModel" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="BbtjJlDjUvlxNIoR1eX1-38">
-          <mxGeometry x="264.6099999999997" y="138.66666666666666" width="120" height="74.95495495495496" as="geometry" />
+          <mxGeometry x="49.99999999999966" y="104.14666666666665" width="120" height="74.95495495495496" as="geometry" />
         </mxCell>
         <mxCell id="BbtjJlDjUvlxNIoR1eX1-16" value="" style="group" vertex="1" connectable="0" parent="BbtjJlDjUvlxNIoR1eX1-9">
           <mxGeometry x="80" y="53.02" width="480" height="171.84" as="geometry" />
@@ -1200,13 +1200,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="BbtjJlDjUvlxNIoR1eX1-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="BbtjJlDjUvlxNIoR1eX1-9" source="BbtjJlDjUvlxNIoR1eX1-46" target="BbtjJlDjUvlxNIoR1eX1-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1460" y="350" as="sourcePoint" />
+            <mxPoint x="1510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbtjJlDjUvlxNIoR1eX1-77" value="广播事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BbtjJlDjUvlxNIoR1eX1-76">
+          <mxGeometry x="0.0927" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BbtjJlDjUvlxNIoR1eX1-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="BbtjJlDjUvlxNIoR1eX1-1" target="BbtjJlDjUvlxNIoR1eX1-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-4840" y="-20" as="sourcePoint" />
             <mxPoint x="-4790" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BbtjJlDjUvlxNIoR1eX1-45" value="初始化 cmd 并发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BbtjJlDjUvlxNIoR1eX1-44">
+        <mxCell id="BbtjJlDjUvlxNIoR1eX1-45" value="初始化 cmd 并发送，请求数据/更新数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BbtjJlDjUvlxNIoR1eX1-44">
           <mxGeometry x="-0.1841" y="1" relative="1" as="geometry">
             <mxPoint x="-3" y="-12" as="offset" />
           </mxGeometry>
@@ -1217,10 +1228,19 @@
             <mxPoint x="-4320" y="-120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BbtjJlDjUvlxNIoR1eX1-73" value="监听 广播事件，执行回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BbtjJlDjUvlxNIoR1eX1-72">
+        <mxCell id="BbtjJlDjUvlxNIoR1eX1-73" value="监听 广播事件，执行回调，获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BbtjJlDjUvlxNIoR1eX1-72">
           <mxGeometry x="0.296" y="1" relative="1" as="geometry">
             <mxPoint x="79" y="-2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BbtjJlDjUvlxNIoR1eX1-78" value="请求数据、展示数据、更新数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-4195" y="-462" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BbtjJlDjUvlxNIoR1eX1-79" value="当前视图用户主动触发数据更新，例如用户登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-4000" y="-492" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BbtjJlDjUvlxNIoR1eX1-80" value="其他模块导致数据变动，当前视图被动触发视图更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-4000" y="-432" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
