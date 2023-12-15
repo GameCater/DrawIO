@@ -1,9 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T06:39:43.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.9" etag="MhenvTd_TZ-QoRduBg6V" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T07:08:17.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="g_2w468cnetmJjrMtPFW" version="22.1.9" type="github">
   <diagram name="第 1 页" id="QcVd1ZgNhZOyaR3dG3_q">
-    <mxGraphModel>
+    <mxGraphModel dx="683" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-1" target="GfHRN2ybtqcf9IKZYvDj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-38" value="自动保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GfHRN2ybtqcf9IKZYvDj-10">
+          <mxGeometry x="-0.1778" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-1" target="GfHRN2ybtqcf9IKZYvDj-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-39" value="手动保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GfHRN2ybtqcf9IKZYvDj-34">
+          <mxGeometry x="-0.5437" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-1" value="保存特效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-4" target="GfHRN2ybtqcf9IKZYvDj-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-13" value="如果不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GfHRN2ybtqcf9IKZYvDj-12">
+          <mxGeometry x="-0.2095" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-4" value="检查特效清单文件里是否已经包含该特效名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-9" target="GfHRN2ybtqcf9IKZYvDj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-9" value="检查组件xml文件中 所有 transition 标签，记录需要处理的特效名称" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-14" target="GfHRN2ybtqcf9IKZYvDj-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-14" value="拷贝复制该特效 transition 标签中内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-21" value="循环处理 transition 下 所有 item 标签，根据 item 标签属性 target 在 displayList 标签里找到对应的 ui 元素，额外在 item 标签下记录元素名称，清理 item 下 target 属性内容，其他属性不做变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-25" target="GfHRN2ybtqcf9IKZYvDj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-25" value="将处理完的xml拷贝内容记录到新的xml文件里，文件名为 动效名.xml" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="200" width="220" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-17" value="拷贝流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GfHRN2ybtqcf9IKZYvDj-26">
+          <mxGeometry y="167.14285714285714" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="GfHRN2ybtqcf9IKZYvDj-26">
+          <mxGeometry x="70" width="150" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-28" target="GfHRN2ybtqcf9IKZYvDj-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-28" value="更新特效清单，记录新的特效文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-30" value="保存完成" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GfHRN2ybtqcf9IKZYvDj-33" target="GfHRN2ybtqcf9IKZYvDj-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="170" />
+              <mxPoint x="380" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-33" value="保存指定的特效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
