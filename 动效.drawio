@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T07:36:24.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="AthFhYMn0X_cwDLbSpKI" version="22.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T07:39:33.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ARVkJfan-OSvigfN-_Jb" version="22.1.9" type="github">
   <diagram name="第 1 页" id="QcVd1ZgNhZOyaR3dG3_q">
     <mxGraphModel dx="989" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
@@ -158,8 +158,8 @@
         <mxCell id="GfHRN2ybtqcf9IKZYvDj-62" value="对于缺失的 ui 元素，打印提示" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GfHRN2ybtqcf9IKZYvDj-66" value="在不同组件中使用相同的特效，需要有该特效使用的ui元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="755" y="230" width="330" height="30" as="geometry" />
+        <mxCell id="GfHRN2ybtqcf9IKZYvDj-66" value="在不同组件中使用相同的特效，需要有该特效使用的ui元素，特效的复用将跟踪 ui 元素名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
