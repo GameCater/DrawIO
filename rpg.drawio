@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-30T06:53:33.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="X11ammDSxoE1RkaDAwWC" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-30T06:55:06.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="U29zLiOvWDJ3JJqIqkNS" version="24.6.4" type="github">
   <diagram name="第 1 页" id="5KK2oKJwJybRAGpgq_K9">
     <mxGraphModel dx="1105" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
       <root>
@@ -108,6 +108,15 @@
             <mxPoint x="750" y="140" as="sourcePoint" />
             <mxPoint x="910" y="140" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsPyic6-YAyymmCnxKHt-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ItemShield&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Instantiate(slot: Transform): GameObject&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="180" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GsPyic6-YAyymmCnxKHt-33" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="GsPyic6-YAyymmCnxKHt-32" target="GsPyic6-YAyymmCnxKHt-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="868" y="280" as="sourcePoint" />
+            <mxPoint x="800" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
