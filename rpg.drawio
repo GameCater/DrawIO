@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-30T11:18:50.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="NpW1j93ZHZUSOabTQbYs" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-30T11:54:45.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="sHIBW0Z_FDDMWXwaq8WL" version="24.6.4" type="github">
   <diagram name="第 1 页" id="5KK2oKJwJybRAGpgq_K9">
     <mxGraphModel dx="3233" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
       <root>
@@ -120,12 +120,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GsPyic6-YAyymmCnxKHt-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EntityItemManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="910" y="860" width="160" height="90" as="geometry" />
+          <mxGeometry x="880" y="860" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GsPyic6-YAyymmCnxKHt-36" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="GsPyic6-YAyymmCnxKHt-34" target="GsPyic6-YAyymmCnxKHt-15">
           <mxGeometry x="-0.887" y="-15" relative="1" as="geometry">
             <mxPoint x="510" y="910" as="sourcePoint" />
             <mxPoint x="670" y="910" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsPyic6-YAyymmCnxKHt-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Entity&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="860" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GsPyic6-YAyymmCnxKHt-38" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="GsPyic6-YAyymmCnxKHt-37" target="GsPyic6-YAyymmCnxKHt-34">
+          <mxGeometry x="-0.7895" y="-15" relative="1" as="geometry">
+            <mxPoint x="1200" y="970" as="sourcePoint" />
+            <mxPoint x="1310" y="900" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
