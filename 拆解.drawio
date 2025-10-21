@@ -68,7 +68,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hjsJc1q_cjLp_vTnd-DD-19" value="Sequence Turning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-19" value="Sequence Turning Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
