@@ -4,23 +4,35 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hjsJc1q_cjLp_vTnd-DD-1" value="BlendSpace Walking Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="280" width="470" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="hjsJc1q_cjLp_vTnd-DD-2" value="Standing Slots Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-1" value="BlendSpace Walking Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hjsJc1q_cjLp_vTnd-DD-9">
+          <mxGeometry x="350" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjsJc1q_cjLp_vTnd-DD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hjsJc1q_cjLp_vTnd-DD-3" target="hjsJc1q_cjLp_vTnd-DD-2">
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-2" value="Standing Slots Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hjsJc1q_cjLp_vTnd-DD-9">
+          <mxGeometry x="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hjsJc1q_cjLp_vTnd-DD-9" source="hjsJc1q_cjLp_vTnd-DD-3" target="hjsJc1q_cjLp_vTnd-DD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hjsJc1q_cjLp_vTnd-DD-3" value="Idle Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-3" value="Idle Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hjsJc1q_cjLp_vTnd-DD-9">
+          <mxGeometry x="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjsJc1q_cjLp_vTnd-DD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hjsJc1q_cjLp_vTnd-DD-5" target="hjsJc1q_cjLp_vTnd-DD-3">
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hjsJc1q_cjLp_vTnd-DD-9" source="hjsJc1q_cjLp_vTnd-DD-5" target="hjsJc1q_cjLp_vTnd-DD-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hjsJc1q_cjLp_vTnd-DD-5" value="Idle Grip Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-5" value="Idle Grip Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hjsJc1q_cjLp_vTnd-DD-9">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hjsJc1q_cjLp_vTnd-DD-9" source="hjsJc1q_cjLp_vTnd-DD-1" target="hjsJc1q_cjLp_vTnd-DD-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="140" as="sourcePoint" />
+            <mxPoint x="650" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-8" value="Add" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hjsJc1q_cjLp_vTnd-DD-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
