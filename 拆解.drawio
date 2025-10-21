@@ -34,6 +34,9 @@
         <mxCell id="hjsJc1q_cjLp_vTnd-DD-8" value="Add" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hjsJc1q_cjLp_vTnd-DD-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hjsJc1q_cjLp_vTnd-DD-10" target="hjsJc1q_cjLp_vTnd-DD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hjsJc1q_cjLp_vTnd-DD-10" value="TEMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="280" width="120" height="60" as="geometry" />
         </mxCell>
@@ -50,6 +53,12 @@
         </mxCell>
         <mxCell id="hjsJc1q_cjLp_vTnd-DD-12" value="BlendSpace Walking Lean Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-16" value="TEMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-18" value="Alpha Lag Look" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
