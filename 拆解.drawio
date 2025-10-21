@@ -34,6 +34,23 @@
         <mxCell id="hjsJc1q_cjLp_vTnd-DD-8" value="Add" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hjsJc1q_cjLp_vTnd-DD-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-10" value="TEMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hjsJc1q_cjLp_vTnd-DD-2" target="hjsJc1q_cjLp_vTnd-DD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hjsJc1q_cjLp_vTnd-DD-12" target="hjsJc1q_cjLp_vTnd-DD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-15" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hjsJc1q_cjLp_vTnd-DD-14">
+          <mxGeometry x="0.0222" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hjsJc1q_cjLp_vTnd-DD-12" value="BlendSpace Walking Lean Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
