@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
   <diagram name="第 1 页" id="rl1AosZWIsbkXJZpwoHD">
-    <mxGraphModel dx="1569" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,6 +47,9 @@
             <mxPoint x="930" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-3" target="Ap8MqadGUjW8ZtrqbL-w-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-3" value="Machine Standing Default" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="270" width="80" height="80" as="geometry" />
         </mxCell>
@@ -79,11 +82,11 @@
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-4" target="Ap8MqadGUjW8ZtrqbL-w-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="119.99999999999977" y="720" as="targetPoint" />
+            <mxPoint x="249.99999999999977" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-4" value="Idle Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-5" target="Ap8MqadGUjW8ZtrqbL-w-4">
           <mxGeometry relative="1" as="geometry" />
@@ -94,18 +97,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-5" value="Sequence Crouched Pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-9" target="Ap8MqadGUjW8ZtrqbL-w-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="720" as="targetPoint" />
+            <mxPoint x="380" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-9" value="Crouch Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-11" target="Ap8MqadGUjW8ZtrqbL-w-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-11" value="Crouching Slots Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-12" target="Ap8MqadGUjW8ZtrqbL-w-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-14" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ap8MqadGUjW8ZtrqbL-w-13">
+          <mxGeometry x="0.0603" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-12" value="Sequence Crouch Walking Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-15" value="TEMP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-17" target="Ap8MqadGUjW8ZtrqbL-w-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-19" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ap8MqadGUjW8ZtrqbL-w-18">
+          <mxGeometry x="0.1485" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-17" value="Sequence Turning Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-20" target="Ap8MqadGUjW8ZtrqbL-w-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-20" value="Machine Standing Crouching" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-15" target="Ap8MqadGUjW8ZtrqbL-w-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="700" as="sourcePoint" />
+            <mxPoint x="810" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-23" value="Machine Standing" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="490" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
