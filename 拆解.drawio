@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
   <diagram name="第 1 页" id="rl1AosZWIsbkXJZpwoHD">
-    <mxGraphModel dx="1046" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="828" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,8 +214,36 @@
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-45" value="Machine Standing" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1870" y="490" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-47" target="Ap8MqadGUjW8ZtrqbL-w-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-47" value="Standing Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2030" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-49" target="Ap8MqadGUjW8ZtrqbL-w-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-51" value="PerBoneBlend&amp;nbsp;&lt;div&gt;Slot Action Left Arm Standing&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ap8MqadGUjW8ZtrqbL-w-50">
+          <mxGeometry x="0.0133" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-49" value="Standing Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-52" value="TEMP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-54" target="Ap8MqadGUjW8ZtrqbL-w-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-56" value="PerBoneBlend&lt;div&gt;Slot Action Right Arm Standing&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ap8MqadGUjW8ZtrqbL-w-55">
+          <mxGeometry x="0.0967" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-54" value="Standing Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
