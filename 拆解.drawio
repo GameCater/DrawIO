@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
   <diagram name="第 1 页" id="rl1AosZWIsbkXJZpwoHD">
-    <mxGraphModel dx="1529" dy="1277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="904" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
           <mxGeometry x="720" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hjsJc1q_cjLp_vTnd-DD-18" value="Alpha Lag Look" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="580" width="60" height="30" as="geometry" />
+          <mxGeometry x="1650" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hjsJc1q_cjLp_vTnd-DD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hjsJc1q_cjLp_vTnd-DD-19" target="hjsJc1q_cjLp_vTnd-DD-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -184,6 +184,20 @@
         </mxCell>
         <mxCell id="Ap8MqadGUjW8ZtrqbL-w-36" value="Default Idle States Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1510" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-39" value="Leaning Alpha" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ap8MqadGUjW8ZtrqbL-w-40" target="Ap8MqadGUjW8ZtrqbL-w-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-42" value="Add Mesh Space" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ap8MqadGUjW8ZtrqbL-w-41">
+          <mxGeometry x="0.0756" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ap8MqadGUjW8ZtrqbL-w-40" value="Additive Leaning Poses" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
