@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="第 1 页" id="rl1AosZWIsbkXJZpwoHD">
-    <mxGraphModel dx="1574" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1124" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,8 +413,57 @@
         <mxCell id="4qDNCAwc24y5iG6rPmeE-8" value="Aim Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qDNCAwc24y5iG6rPmeE-11" target="4qDNCAwc24y5iG6rPmeE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4qDNCAwc24y5iG6rPmeE-11" value="Aiming Slots Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qDNCAwc24y5iG6rPmeE-13" target="4qDNCAwc24y5iG6rPmeE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-15" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4qDNCAwc24y5iG6rPmeE-14">
+          <mxGeometry x="0.1175" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-13" value="Sequence Breathing Aiming" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-16" value="TEMP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qDNCAwc24y5iG6rPmeE-18" target="4qDNCAwc24y5iG6rPmeE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-20" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4qDNCAwc24y5iG6rPmeE-19">
+          <mxGeometry x="0.1754" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-18" value="Sequence Walking Aiming" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qDNCAwc24y5iG6rPmeE-21" target="4qDNCAwc24y5iG6rPmeE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-21" value="Machine Aiming Default" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4qDNCAwc24y5iG6rPmeE-16" target="4qDNCAwc24y5iG6rPmeE-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="1690" as="sourcePoint" />
+            <mxPoint x="1230" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qDNCAwc24y5iG6rPmeE-23" target="4qDNCAwc24y5iG6rPmeE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-23" value="Machine Aiming" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4qDNCAwc24y5iG6rPmeE-25" value="Aiming Pose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
